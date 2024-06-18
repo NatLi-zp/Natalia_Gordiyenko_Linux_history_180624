@@ -1,0 +1,14 @@
+   0 cd /home
+   1 touch text.txt
+   2 date > text.txt
+   3 df -h / >> text.txt
+   4 cat text.txt
+   5 history | tail -5 >> text.txt
+   6 cat text.txt
+   7 cat /proc/cpuinfo | grep vendor >> text.txt
+   8 cat text.txt
+   9 vi text.txt
+  10 ps -ef
+  11 ps -ef | wc -l >> text.txt
+  12 cat text.txt
+  13 history > history.txt
